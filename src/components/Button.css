@@ -9,28 +9,26 @@
     color: #c5c5c5;
     outline: none;
     border: 1px solid var(--border-button);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .button:active {
     background: #1b1b1c;
 }
 
-.button.double-row {
-    grid-row: span 2;
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
 }
 
 .button.operation {
-    background: green;
+    background: #bb5f00;
 }
 
 .button.operation:active {
-    background: darkgreen;
-}
-
-.button.erase {
-    background: #be0000;
-}
-
-.button.erase:active {
-    background: darkred;
+    background: #a25201;
 }

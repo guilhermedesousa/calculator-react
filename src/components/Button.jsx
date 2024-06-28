@@ -7,10 +7,10 @@ export const Button = (props) => {
             className={`
                 button
                 ${props.operation ? 'operation' : ''}
-                ${props.erase ? 'erase' : ''}
-                ${props.double_row ? 'double-row' : ''}
+                ${props.double ? 'double' : ''}
+                ${props.triple ? 'triple' : ''}
             `}
-            onClick={e => props.onClick && props.onClick(props.op)}>
+            onClick={e => props.onClick && props.onClick(props.label)}>
             {props.label}
         </button>
     );
