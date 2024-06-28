@@ -1,0 +1,9 @@
+.display {
+    grid-column: span 5;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+}

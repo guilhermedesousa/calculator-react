@@ -1,0 +1,36 @@
+:root {
+    --bg-button: #3a3a3a;
+    --border-button: #1b1b1c;
+}
+
+.button {
+    font-size: 1.4em;
+    background: var(--bg-button);
+    color: #c5c5c5;
+    outline: none;
+    border: 1px solid var(--border-button);
+}
+
+.button:active {
+    background: #1b1b1c;
+}
+
+.button.double-row {
+    grid-row: span 2;
+}
+
+.button.operation {
+    background: green;
+}
+
+.button.operation:active {
+    background: darkgreen;
+}
+
+.button.erase {
+    background: #be0000;
+}
+
+.button.erase:active {
+    background: darkred;
+}
